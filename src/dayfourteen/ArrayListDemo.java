@@ -6,6 +6,7 @@ import java.util.Iterator;
 
 public class ArrayListDemo {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		
 		ArrayList a=new ArrayList();
@@ -30,6 +31,7 @@ public class ArrayListDemo {
 		System.out.println("---------------------------------------");
 		while(i.hasNext())
 			System.out.println(i.next());
+		
 		
 	}
 
